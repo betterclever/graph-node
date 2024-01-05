@@ -318,9 +318,9 @@ checksum = "0ea22880d78093b0cbe17c89f64a7d457941e65759157ec6cb31a31d652b05e5"
 
 [[package]]
 name = "base64"
-version = "0.21.0"
+version = "0.21.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a4a4ddaa51a5bc52a6948f74c06d20aaaddb71924eab79b8c97a8c556e942d6a"
+checksum = "35636a1494ede3b646cc98f74f8e62c773a38a659ebc777a2cf26b9b74171df9"
 
 [[package]]
 name = "base64-url"
@@ -328,7 +328,7 @@ version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ed5efc028d778cd6fb4d1779ca001b3282717e34127b726593002506aa77ca08"
 dependencies = [
- "base64 0.21.0",
+ "base64 0.21.5",
 ]
 
 [[package]]
@@ -1628,6 +1628,7 @@ name = "graph-chain-cosmos"
 version = "0.33.0"
 dependencies = [
  "anyhow",
+ "base64 0.21.5",
  "graph",
  "graph-chain-common",
  "graph-runtime-derive",
@@ -3647,7 +3648,7 @@ version = "0.11.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cde824a14b7c14f85caff81225f411faacc04a2013f41670f41443742b1c1c55"
 dependencies = [
- "base64 0.21.0",
+ "base64 0.21.5",
  "bytes",
  "encoding_rs",
  "futures-core",

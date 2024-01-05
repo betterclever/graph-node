@@ -87,7 +87,7 @@ impl PartialEq for CosmosTrigger {
                 },
             ) => {
                 if let (Ok(a_event), Ok(b_event)) = (a_event_data.event(), b_event_data.event()) {
-                    a_event.event_type == b_event.event_type && a_origin == b_origin
+                    a_event.event_type == b_event.event_type && a_origin == b_origin 
                 } else {
                     false
                 }
